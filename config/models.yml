@@ -1,0 +1,45 @@
+available_text_models: ["AnnuGPT", "AnnuGPT-4", "text-davinci-003"]
+
+info:
+  gpt-3.5-turbo:
+    type: chat_completion
+    name: AnnuGPT
+    description: AnnuGPT is that well-known model. It's <b>fast</b> and <b>cheap</b>.
+
+    price_per_1000_input_tokens: 0.000
+    price_per_1000_output_tokens: 0.000
+
+    scores:
+      Smart: 3
+      Fast: 5
+      Cheap: 5
+
+  gpt-4:
+    type: chat_completion
+    name: AnnuGPT
+    description: AnnuGPT is the <b>smartest</b> and most advanced model in the world.
+
+    price_per_1000_input_tokens: 0.00
+    price_per_1000_output_tokens: 0.00
+
+    scores:
+      Smart: 5
+      Fast: 2
+      Cheap: 2
+
+  text-davinci-003:
+    type: completion
+    name: AnnuGPT
+    description: AnnuGPT is a legacy model.
+
+    price_per_1000_input_tokens: 0.00
+    price_per_1000_output_tokens: 0.00
+
+    scores:
+      Smart: 3
+      Fast: 2
+      Cheap: 3
+
+  whisper:
+    type: audio
+    price_per_1_min: 0.000
